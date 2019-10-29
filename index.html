@@ -3,22 +3,36 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
-    <title>Hello, world!</title>
+    <title>Jira Test App</title>
   </head>
   <body>
-    <h1 class="jumbotron">Hello, world!</h1>
-    <div id="statuses"></div>
+    <div class="container">
+      <div class="chart">
+        <canvas id="myChart" width="100%" height="75%"></canvas>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script>let $ = require("jquery");</script>
-    <script>require("popper.js");</script>
-    <script>require("bootstrap");</script>
-    <script>require("./assets/js/renderer");</script>
+    <script>
+      let $ = require("jquery");
+    </script>
+    <script>
+      require("popper.js");
+    </script>
+    <script>
+      require("bootstrap");
+    </script>
+    <script>
+      require("./assets/js/renderer");
+    </script>
   </body>
 </html>
